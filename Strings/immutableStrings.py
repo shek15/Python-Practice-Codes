@@ -28,5 +28,5 @@ s2 = 'World'
 print(s1, id(s1))
 print(s2, id(s2))
 
-print(s1[2], id(s1[2]))
-print(s2[-2], id(s1[-2]))
+print('The ID of ',s1[2], ' in s1 is : ', id(s1[2]))
+print('The ID of ',s2[-2],' in s2 is : ', id(s2[-2]))
